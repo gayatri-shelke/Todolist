@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import Todo from './component/Todo.js'
+// import Snackbar from './component/Snackbar.js'
+// import { Snackbar } from '@material-ui/core';
+import Todo from './component/Todo'
 
 function App() {
   return (

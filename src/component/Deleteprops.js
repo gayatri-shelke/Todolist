@@ -1,11 +1,18 @@
-import React from 'react'
-// import DeleteIcon from '@mui/icons-material/Delete';
-import DeleteIcon from '@material-ui/icons/Delete';
+// import React,{useState} from 'react'
+// // import DeleteIcon from '@mui/icons-material/Delete';
+// import DeleteIcon from '@material-ui/icons/Delete';
 
-export default function Deleteprops(props) {
-  return (
-<>
-<li>{props.text}</li>
-</> 
-)
-}
+// export default function Deleteprops(props) {
+//   const [line,setLine]=useState(false)
+//   const cutIt=()=>{
+//     setLine(true)
+//   }
+//   return (
+// <>
+// <span onClick={cutIt} >
+// <DeleteIcon/>
+// <li style={{textDecoration:line?'line-through ':'none'}}>{props.text}</li>
+// </span>
+// </> 
+// )
+// }
